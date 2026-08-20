@@ -1,0 +1,167 @@
+/* HERENCIA */
+
+/* CASO 1: FONT-FAMILY */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* CASO 2: COLOR */
+main {
+    color: #333;
+}
+
+/* CASO 3: LINE-HEIGHT */
+main {
+    line-height: 1.6;
+}
+
+/* CASO 4: TEXT-ALIGN */
+header {
+    text-align: center;
+}
+
+/* CASO 5: LETTER-SPACING */
+header {
+    letter-spacing: 1px;
+}
+
+/* CASO 6: FONT-SIZE */
+section {
+    font-size: 16px;
+}
+
+/* CASO 7: CURSOR */
+button {
+    cursor: pointer;
+}
+
+/* CASCADA */
+
+/* CASO 1: REGLA GENERAL */
+p {
+    color: black;
+}
+
+/* REGLA MÁS ESPECÍFICA */
+section p {
+    color: #444;
+}
+
+/* CASO 2 */
+h2 {
+    color: blue;
+}
+section h2 {
+    color: #1f4e79;
+}
+
+/* CASO 3 */
+.tarjeta {
+    background-color: white;
+}
+article.tarjeta {
+    background-color: #e8f1f8;
+}
+
+/* CASO 4 */
+button {
+    background-color: gray;
+}
+button {
+    background-color: #1f4e79;
+}
+
+/* CASO 5 */
+.especial {
+    background-color: yellow;
+}
+
+article.especial {
+    background-color: #d6eaf8 !important;
+}
+
+
+/* DISEÑO GENERAL */
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 30px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #1f4e79;
+    padding-bottom: 10px;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

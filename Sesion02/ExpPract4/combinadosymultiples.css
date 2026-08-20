@@ -1,0 +1,148 @@
+/* CONFIGURACIÓN GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+nav {
+    margin-top: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* 1. SELECTOR DESCENDIENTE */
+section p {
+    line-height: 1.6;
+}
+
+/* 2. SELECTOR HIJO DIRECTO */
+section > h2 {
+    color: #1f4e79;
+}
+
+/* 3. HERMANO ADYACENTE */
+h2 + p {
+    font-style: italic;
+}
+
+/* 4. HERMANOS GENERALES */
+h3 ~ p {
+    color: #555;
+}
+
+/* 5. ELEMENTO + CLASE */
+article.tarjeta {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* 6. ELEMENTO + ID */
+
+section#tecnologias {
+    border-left: 5px solid #1f4e79;
+}
+
+/* 7. COMBINACIÓN DE VARIOS SELECTORES */
+
+section#tecnologias article.tarjeta h3 {
+    color: #2874a6;
+}
+
+/*
+   SELECTORES MÚLTIPLES
+
+/* CASO MÚLTIPLE 1 */
+h1,
+h2 {
+    font-family: Georgia, serif;
+}
+
+/* CASO MÚLTIPLE 2 */
+h3,
+label {
+    font-weight: bold;
+}
+
+/* CASO MÚLTIPLE 3 */
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+/* CASO MÚLTIPLE 4 */
+header,
+footer {
+    text-align: center;
+}
+
+/* CASO MÚLTIPLE 5 */
+article.tarjeta,
+.contenedor {
+    margin-bottom: 20px;
+}
+
+
+/* OTROS ESTILOS */
+
+.especial {
+    background-color: #e8f1f8 !important;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin: 8px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
