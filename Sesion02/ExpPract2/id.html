@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Selectores por ID</title>
+    <link rel="stylesheet" href="id.css">
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1 id="titulo">
+            Tecnologías para el Desarrollo Web
+        </h1>
+
+        <nav id="navegacion">
+            <a id="inicio-link" href="#inicio">
+                Inicio
+            </a>
+            <a id="tecnologias-link" href="#tecnologias">
+                Tecnologías
+            </a>
+            <a id="contacto-link" href="#contacto">
+                Contacto
+            </a>
+        </nav>
+    </header>
+
+    <main id="contenido">
+
+        <section id="inicio">
+            <h2 id="titulo-inicio">
+                Desarrollo Web
+            </h2>
+            <p id="descripcion">
+                El desarrollo web permite crear sitios y aplicaciones
+                accesibles mediante Internet.
+            </p>
+        </section>
+
+        <section id="tecnologias">
+            <h2 id="titulo-tecnologias">
+                Principales Tecnologías
+            </h2>
+
+            <article id="html5">
+                <h3 id="titulo-html">
+                    HTML5
+                </h3>
+                <p id="texto-html">
+                    HTML5 permite estructurar el contenido de las
+                    páginas web.
+                </p>
+            </article>
+
+            <article id="css3">
+                <h3 id="titulo-css">
+                    CSS
+                </h3>
+                <p id="texto-css">
+                    CSS3 permite establecer el diseño y apariencia
+                    visual de una página.
+                </p>
+            </article>
+        </section>
+
+        <section id="servicios">
+            <h2 id="titulo-servicios">
+                Servicios
+            </h2>
+            <ul id="lista-servicios">
+                <li id="servicio-diseno">
+                    Diseño de páginas web
+                </li>
+                <li id="servicio-desarrollo">
+                    Desarrollo de aplicaciones web
+                </li>
+                <li id="servicio-tienda">
+                    Diseño de tiendas virtuales
+                </li>
+                <li id="servicio-mantenimiento">
+                    Mantenimiento de sitios web
+                </li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2 id="titulo-contacto">
+                Contacto
+            </h2>
+
+            <form id="formulario">
+                <label id="label-nombre">
+                    Nombre:
+                </label>
+                <input
+                    id="nombre"
+                    type="text"
+                >
+
+                <label id="label-correo">
+                    Correo:
+                </label>
+                <input
+                    id="correo"
+                    type="email"
+                >
+
+                <label id="label-mensaje">
+                    Mensaje:
+                </label>
+                <textarea id="mensaje"></textarea>
+
+                <button id="boton-enviar" type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="pie">
+        <p id="texto-pie">
+            2026 Desarrollo Web
+        </p>
+    </footer>
+</body>
+</html>

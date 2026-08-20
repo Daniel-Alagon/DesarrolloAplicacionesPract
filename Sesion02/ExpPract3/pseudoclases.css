@@ -1,0 +1,103 @@
+/* CONFIGURACIÓN GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+h2 {
+    color: #1f4e79;
+}
+
+/* 1. HOVER */
+a:hover {
+    color: yellow;
+}
+
+/* 2. ACTIVE */
+a:active {
+    color: red;
+}
+
+/* 3. VISITED */
+a:visited {
+    color: purple;
+}
+
+/* 4. FOCUS */
+input:focus {
+    outline: 3px solid #3498db;
+}
+
+/* 5. FIRST-CHILD */
+article:first-child {
+    border-top: 5px solid green;
+}
+
+/* 6. LAST-CHILD */
+article:last-child {
+    border-bottom: 5px solid red;
+}
+
+/* 7. NTH-CHILD */
+article:nth-child(2) {
+    background-color: #e8f1f8;
+}
+
+/* 8. NTH-OF-TYPE */
+article:nth-of-type(3) {
+    padding: 30px;
+}
+
+/* 9. NOT */
+article:not(:first-child) {
+    margin-top: 15px;
+}
+
+/* 10. REQUIRED */
+input:required {
+    border: 2px solid orange;
+}
+
+/* 11. VALID */
+input:valid {
+    background-color: #e8f8e8;
+}
+
+/* 12. INVALID */
+input:invalid {
+    background-color: #fdeaea;
+}
+
+/* 13. EMPTY */
+section:empty {
+    display: none;
+}
+
+/* 14. CHECKED */
+input:checked {
+    accent-color: green;
+}
+
+/* 15. DISABLED */
+input:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

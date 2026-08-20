@@ -1,0 +1,136 @@
+#encabezado {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#titulo {
+    margin: 0;
+    font-size: 32px;
+}
+
+#navegacion {
+    margin-top: 20px;
+}
+
+#inicio-link,
+#tecnologias-link,
+#contacto-link {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#contenido {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#inicio,
+#tecnologias,
+#servicios,
+#contacto {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#titulo-inicio,
+#titulo-tecnologias,
+#titulo-servicios,
+#titulo-contacto {
+    color: #1f4e79;
+    border-bottom: 2px solid #1f4e79;
+    padding-bottom: 10px;
+}
+
+#descripcion {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#imagen-tecnologia {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+#html5,
+#css3,
+#javascript {
+    background-color: #e8f1f8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+#titulo-html,
+#titulo-css,
+#titulo-javascript {
+    color: #2874a6;
+}
+
+#texto-html,
+#texto-css,
+#texto-javascript {
+    line-height: 1.6;
+}
+
+#lista-servicios {
+    padding-left: 30px;
+}
+
+#servicio-diseno,
+#servicio-desarrollo,
+#servicio-tienda,
+#servicio-mantenimiento {
+    margin: 10px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#label-nombre,
+#label-correo,
+#label-mensaje {
+    font-weight: bold;
+}
+
+#nombre,
+#correo,
+#mensaje {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#mensaje {
+    height: 100px;
+}
+
+#boton-enviar {
+    width: 100px;
+    padding: 10px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#pie {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#texto-pie {
+    margin: 0;
+}

@@ -1,0 +1,89 @@
+/* CONFIGURACIÓN GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+h2 {
+    color: #1f4e79;
+}
+
+/* 1. BEFORE */
+h2::before {
+    content: "◆ ";
+    color: #d35400;
+}
+
+/* 2. AFTER */
+h2::after {
+    content: " ✓";
+    color: green;
+}
+
+/* 3. FIRST-LETTER */
+p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+/* 4. FIRST-LINE */
+article p::first-line {
+    font-weight: bold;
+}
+
+/* 5. SELECTION */
+::selection {
+    background-color: #1f4e79;
+    color: white;
+}
+
+/* 6. PLACEHOLDER */
+input::placeholder {
+    color: #777;
+    font-style: italic;
+}
+textarea::placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+/* 7. MARKER */
+li::marker {
+    color: #d35400;
+    font-size: 20px;
+}
+
+/* 8. FILE SELECTOR BUTTON */
+input[type="file"]::file-selector-button {
+    background-color: #1f4e79;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

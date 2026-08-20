@@ -1,0 +1,130 @@
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1f4e79;
+}
+
+
+/* SELECTOR DE ATRIBUTO */
+
+input[type] {
+    border: 2px solid #999;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/* SELECTOR DE ATRIBUTO CON VALOR */
+
+input[type="email"] {
+    border-color: blue;
+}
+
+
+/* INPUT DE CONTRASEÑA */
+
+input[type="password"] {
+    border-color: red;
+}
+
+
+/* INPUT DE TEXTO */
+
+input[type="text"] {
+    border-color: green;
+}
+
+
+/* INPUT SUBMIT */
+
+input[type="submit"] {
+    background-color: #1f4e79;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ENLACES QUE TIENEN TARGET */
+
+a[target] {
+    font-weight: bold;
+}
+
+
+/* ENLACES CUYO TARGET ES EXACTAMENTE _blank */
+
+a[target="_blank"] {
+    color: #d35400;
+}
+
+
+/* ELEMENTOS CUYO HREF COMIENZA CON HTTPS */
+
+a[href^="https"] {
+    text-decoration: underline;
+}
+
+
+/* ELEMENTOS CUYO HREF CONTIENE "mozilla" */
+
+a[href*="mozilla"] {
+    font-style: italic;
+}
+
+
+/* IMÁGENES QUE TIENEN ALT */
+
+img[alt] {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+/* IMÁGENES CUYO ALT CONTIENE "tecnologías" */
+
+img[alt*="tecnologías"] {
+    border: 5px solid #1f4e79;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
